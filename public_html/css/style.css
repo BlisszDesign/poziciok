@@ -1,0 +1,76 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2018.03.10., 19:33:24
+    Author     : Eszti
+*/
+﻿html, body {
+    height: 100%;
+    margin: 0px;
+}
+nav {
+    background: #bd8aab;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+}
+
+nav:hover {
+    opacity: 0.5;
+}
+
+#menu_icon {
+    position: absolute;
+    top: 2px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+}
+
+#csokor {
+    background-image: url("../img/csokor.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 435px;
+}
+
+
+.kontakt {
+    width: 7%;
+    margin-top: 5%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+}
+.kontakt:hover {
+    opacity: 0.3;
+}
+
+#telefon {     
+    margin-left: 25%;       
+}
+
+p {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color:#763f77;
+}
+
+footer {
+    text-align:center;
+    background: #bd8aab;
+    height: 50px;
+    clear: both;
+}
+#footer {
+    padding-top: 1%;
+    font-family:'Clicker Script', cursive;
+    font-size:25px;
+    font-weight: normal;
+}
